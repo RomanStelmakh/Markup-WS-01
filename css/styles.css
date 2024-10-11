@@ -1,9 +1,3 @@
-/* .raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
 :root{
   --basic-color:#212121;
   --text-color:#757575;
@@ -13,9 +7,10 @@
   --background-footer:#2F303A;
   --background-team:#F5F4FA ;
   --logo-color:#000000;
+  --roboto:Roboto,sans-serif;
 }
 body {
-  background-color: #FFFFFF;
+  background-color: var(--white--color);
   color:var(--basic-color);
   font-family: Roboto,sans-serif;
 }
@@ -29,13 +24,12 @@ ul{
   text-decoration: none;
   color: var(--accent-color);
   width: 145px;
-/* height: 31px; */
 top: 24px;
 left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Raleway;
+/* font-family: Raleway; */
 font-size: 26px;
 font-weight: 700;
 line-height: 1.2;
@@ -63,7 +57,7 @@ left: 453px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 500;
 line-height: 1.2;
@@ -90,7 +84,7 @@ left: 1263px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 500;
 line-height: 1.2;
@@ -134,7 +128,7 @@ border-radius: 4px 0px 0px 0px;
 opacity: 0px;
 
 
-  font-family: Roboto;
+  /* font-family: Roboto; */
 font-size: 16px;
 font-weight: 700;
 line-height: 1.9;
@@ -164,7 +158,7 @@ left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 700;
 line-height: 1.2;
@@ -181,7 +175,7 @@ left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 400;
 line-height: 1.7;
@@ -199,7 +193,7 @@ left: 617px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 36px;
 font-weight: 700;
 line-height: 1.2;
@@ -224,7 +218,7 @@ left: 668px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 36px;
 font-weight: 700;
 line-height: 1.2;
@@ -248,7 +242,7 @@ left: 286px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 16px;
 font-weight: 500;
 line-height: 1.2;
@@ -265,7 +259,7 @@ left: 577px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 16px;
 font-weight: 400;
 line-height: 1.2;
@@ -289,7 +283,7 @@ left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 400;
 line-height: 1.7;
@@ -311,7 +305,7 @@ left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 400;
 line-height: 1.7;
@@ -335,7 +329,7 @@ left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 400;
 line-height: 1.7;
@@ -384,7 +378,7 @@ gap: 0px;
 border-radius: 4px 0px 0px 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 16px;
 font-weight: 500;
 line-height: 1.6;
@@ -417,7 +411,7 @@ left: 239px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 18px;
 font-weight: 700;
 line-height: 2;
@@ -434,7 +428,7 @@ left: 639px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 16px;
 font-weight: 400;
 line-height: 1.9;
