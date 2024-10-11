@@ -1,9 +1,3 @@
-/* .raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
 :root{
   --basic-color:#212121;
   --text-color:#757575;
@@ -13,9 +7,10 @@
   --background-footer:#2F303A;
   --background-team:#F5F4FA ;
   --logo-color:#000000;
+  --roboto:Roboto,sans-serif;
 }
 body {
-  background-color: #FFFFFF;
+  background-color: var(--white--color);
   color:var(--basic-color);
   font-family: Roboto,sans-serif;
 }
@@ -29,13 +24,12 @@ ul{
   text-decoration: none;
   color: var(--accent-color);
   width: 145px;
-height: 31px;
 top: 24px;
 left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Raleway;
+/* font-family: Raleway; */
 font-size: 26px;
 font-weight: 700;
 line-height: 1.2;
@@ -57,13 +51,13 @@ text-align: left;
   color: var(--basic-color);
 
   width: 45px;
-height: 16px;
+/* height: 16px; */
 top: 32px;
 left: 453px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 500;
 line-height: 1.2;
@@ -84,13 +78,13 @@ text-align: left;
   color: #757575;
   text-decoration: none;
   width: 122px;
-height: 16px;
+/* height: 16px; */
 top: 32px;
 left: 1263px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 500;
 line-height: 1.2;
@@ -108,7 +102,7 @@ text-align: left;
 .hero-title {
   color: var(--white--color);
   width: 696px;
-height: 120px;
+/* height: 120px; */
 top: 280px;
 left: 452px;
 gap: 0px;
@@ -126,7 +120,7 @@ text-align: center;
 .hero-button {
   cursor: pointer;
   width: 216px;
-height: 50px;
+/* height: 50px; */
 top: 430px;
 left: 692px;
 gap: 0px;
@@ -134,7 +128,7 @@ border-radius: 4px 0px 0px 0px;
 opacity: 0px;
 
 
-  font-family: Roboto;
+  /* font-family: Roboto; */
 font-size: 16px;
 font-weight: 700;
 line-height: 1.9;
@@ -158,13 +152,13 @@ text-align: center;
 }
 .work-item-title {
   width: 270px;
-height: 16px;
+/* height: 16px; */
 top: 774px;
 left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 700;
 line-height: 1.2;
@@ -175,13 +169,13 @@ text-align: left;
 .work-item-text {
   color: var(--text-color);
   width: 270px;
-height: 72px;
+/* height: 72px; */
 top: 800px;
 left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 400;
 line-height: 1.7;
@@ -193,13 +187,13 @@ text-align: left;
 }
 .picture-title {
   width: 366px;
-height: 42px;
+/* height: 42px; */
 top: 966px;
 left: 617px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 36px;
 font-weight: 700;
 line-height: 1.2;
@@ -218,13 +212,13 @@ text-align: center;
 }
 .team-title {
   width: 264px;
-height: 42px;
+/* height: 42px; */
 top: 1540px;
 left: 668px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 36px;
 font-weight: 700;
 line-height: 1.2;
@@ -242,13 +236,13 @@ text-align: center;
 }
 .aside-title {
   width: 129px;
-height: 19px;
+/* height: 19px; */
 top: 1922px;
 left: 286px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 16px;
 font-weight: 500;
 line-height: 1.2;
@@ -259,13 +253,13 @@ text-align: center;
 .aside-text {
   color: var(--text-color);
   width: 147px;
-height: 19px;
+/* height: 19px; */
 top: 1951px;
 left: 577px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 16px;
 font-weight: 400;
 line-height: 1.2;
@@ -283,13 +277,13 @@ text-align: center;
   font-style: normal;
   color: var(--white--color);
   width: 231px;
-height: 21px;
+/* height: 21px; */
 top: 2205px;
 left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 400;
 line-height: 1.7;
@@ -305,13 +299,13 @@ text-align: left;
   text-decoration: none;
 
   width: 231px;
-height: 21px;
+/* height: 21px; */
 top: 2235px;
 left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 400;
 line-height: 1.7;
@@ -329,13 +323,13 @@ text-align: left;
   text-decoration: none;
 
   width: 231px;
-height: 21px;
+/* height: 21px; */
 top: 2265px;
 left: 215px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 14px;
 font-weight: 400;
 line-height: 1.7;
@@ -377,14 +371,14 @@ text-align: left;
   cursor: pointer;
   background-color:var(--button-portfolio);
   width: 125px;
-height: 38px;
+/* height: 38px; */
 top: 174px;
 left: 593px;
 gap: 0px;
 border-radius: 4px 0px 0px 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 16px;
 font-weight: 500;
 line-height: 1.6;
@@ -411,13 +405,13 @@ text-align: center;
 }
 .projekts-aside-title {
   width: 322px;
-height: 36px;
+/* height: 36px; */
 top: 576px;
 left: 239px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 18px;
 font-weight: 700;
 line-height: 2;
@@ -428,13 +422,13 @@ text-align: left;
 .projekts-aside-text {
   color: var(--text-color);
   width: 322px;
-height: 30px;
+/* height: 30px; */
 top: 616px;
 left: 639px;
 gap: 0px;
 opacity: 0px;
 
-font-family: Roboto;
+/* font-family: Roboto; */
 font-size: 16px;
 font-weight: 400;
 line-height: 1.9;
